@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:calibri, "segoe ui", arial, tahoma, sans-serif;
+}
+
+body{
+    background-color:#DDDDDD;
+}
+
+#wrapper{
+    width:780px;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+/* HEADER */
+#header{
+    background:#555 url(images/header-bg.png) repeat-x;
+    height:70px;
+    padding:5px;
+    margin:20px 0;
+}
+
+#header img{
+    width:130px;
+    height:35px;
+    float:left;
+}
+
+/* MENU */
+#menu-utama{
+    list-style:none;
+    float:left;
+    margin-top:5px;
+}
+
+#menu-utama li{
+    float:left;
+    padding:8px 20px;
+    border-right:1px solid #444;
+}
+
+#menu-utama li a{
+    color:#fff;
+    text-decoration:none;
+}
+
+/* SEARCH */
+#header form{
+    float:right;
+    margin-top:10px;
+}
+
+#header input{
+    height:20px;
+    border:none;
+}
+
+/* SLIDER */
+.slider img{
+    width:100%;
+    height:250px;
+}
+
+/* ARTIKEL */
+#daftar-artikel{
+    width:470px;
+    float:left;
+}
+
+.artikel{
+    background:#fff;
+    padding:10px;
+    margin-bottom:20px;
+    overflow:hidden;
+}
+
+.artikel img{
+    float:left;
+    margin-right:10px;
+    width:200px;
+    height:165px;
+}
+
+.artikel h1{
+    font-size:18px;
+}
+
+.artikel b{
+    background:#ddd;
+    padding:3px;
+    font-size:12px;
+    margin-right:5px;
+}
+
+.artikel p{
+    margin:10px 0;
+}
+
+.artikel a{
+    display:block;
+    text-align:right;
+    color:#555;
+}
+
+/* SIDEBAR */
+#sidebar{
+    width:270px;
+    float:right;
+}
+
+#sidebar h2{
+    margin:10px 0;
+}
+
+#sidebar ul{
+    margin-left:15px;
+}
+
+/* FOOTER */
+#footer{
+    clear:both;
+    margin:20px 0;
+    text-align:center;
+    background:#f0f0f0;
+    padding:10px;
+}
